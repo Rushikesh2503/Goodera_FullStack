@@ -1,0 +1,14 @@
+.mainContHome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  width: 70%;
+  margin: 100px auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainContHome {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+}
