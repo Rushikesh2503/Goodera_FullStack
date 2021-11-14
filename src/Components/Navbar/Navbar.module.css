@@ -1,0 +1,47 @@
+.navbarMainCont {
+  width: 100%;
+  height: 250px;
+  background: rgb(94, 122, 223);
+  background: linear-gradient(
+    90deg,
+    rgba(94, 122, 223, 1) 22%,
+    rgba(94, 169, 223, 1) 100%
+  );
+  /* font-size: 14px; */
+}
+
+.navbarContWP {
+  display: flex;
+  width: 70%;
+  height: 100px;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.lfLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.rtLinks {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  cursor: pointer;
+}
+.rtLinks > h3 {
+  width: 120px;
+}
+.logoImg {
+  width: 150px;
+  height: 20%;
+  margin-top: 10px;
+}
+.highLighten {
+  border-bottom-width: 2px;
+  border-bottom: 3px solid white;
+}
