@@ -1,0 +1,50 @@
+.cardMainDivC {
+  height: 230px;
+  width: 100%;
+  background: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  place-items: center;
+}
+
+.cardMainDivC > .ltContCard {
+  background-color: rgb(172, 172, 172);
+  height: 70%;
+  width: 70%;
+  border-radius: 15px;
+}
+.ltContCard > img {
+  width: 100%;
+  height: 100%;
+}
+.rtContCard {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.rtContCard > h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.rtContCard > p {
+  font-size: 14px;
+}
+
+.rtContCardBtn {
+  cursor: pointer;
+  background: white;
+  border: 2px solid rgb(240, 121, 135);
+  color: rgb(240, 121, 135);
+  padding: 5px;
+  font-weight: 500;
+  margin-right: 20px;
+  border-radius: 7px;
+  width: 50%;
+  align-self: flex-end;
+}

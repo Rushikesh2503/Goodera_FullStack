@@ -17,7 +17,7 @@ const Navbar = () => {
             <h3>Upskill Yourself</h3>
           </div>
           <div className={styles.rtLinks}>
-            <h3>Post A Job</h3>
+            <h3>Post a Job</h3>
             <h3>Sign In</h3>
           </div>
         </div>

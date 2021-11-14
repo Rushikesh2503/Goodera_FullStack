@@ -4,7 +4,7 @@ import HomePg from "./Pages/HomePg";
 
 function App() {
   return (
-    <div>
+    <div className="headAppDiv">
       <HomePg />
     </div>
   );
