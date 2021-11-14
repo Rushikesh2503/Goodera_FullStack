@@ -25,7 +25,7 @@ const HomePg = () => {
       <Navbar />
       <div className={styles.mainContHome}>
         {data.map((el, id) => (
-          <Card data={el} key={id} />
+          <Card data={el} id={el.id} key={id} />
         ))}
       </div>
     </div>

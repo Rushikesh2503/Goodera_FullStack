@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "./Card.module.css";
-const Card = ({ data }) => {
+import { useHistory } from "react-router";
+const Card = ({ data, id }) => {
   console.log("dataCard:", data);
+  let his = useHistory();
+  const handleView = () => {
+    his.push(`/jobs/${id}`);
+  };
   return (
     <div className={styles.cardMainDivC}>
       <div className={styles.ltContCard}>
@@ -10,7 +15,9 @@ const Card = ({ data }) => {
       <div className={styles.rtContCard}>
         <h4>{data.title}</h4>
         <p>{data.description}</p>
-        <button className={styles.rtContCardBtn}>View Details</button>
+        <button className={styles.rtContCardBtn} onClick={handleView}>
+          View Details
+        </button>
       </div>
     </div>
   );
