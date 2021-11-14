@@ -6,18 +6,17 @@ import IndividualJob from "./Components/IndividualJob/IndividualJob";
 function App() {
   return (
     <div>
-      <Routes>
+      <HomePg />
+      {/* <Routes>
         <Route exact path="/">
           <>
-            <div className="headAppDiv">
-              <HomePg />
-            </div>
+            <div className="headAppDiv"></div>
           </>
         </Route>
         <Route exact path="/jobs/:id">
           <IndividualJob />
         </Route>
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
