@@ -34,6 +34,7 @@
 }
 .rtContCard > p {
   font-size: 14px;
+  margin-top: 5px;
 }
 
 .rtContCardBtn {
@@ -41,7 +42,7 @@
   background: white;
   border: 2px solid rgb(240, 121, 135);
   color: rgb(240, 121, 135);
-  padding: 5px;
+  padding: 7px;
   font-weight: 500;
   margin-right: 20px;
   border-radius: 7px;
