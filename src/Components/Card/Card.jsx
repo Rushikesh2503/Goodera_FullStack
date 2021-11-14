@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Card.module.css";
-import { useHistory } from "react-router";
+import { useNavigate } from "react-router";
 const Card = ({ data, id }) => {
   console.log("dataCard:", data);
-  let his = useHistory();
+  let his = useNavigate();
   const handleView = () => {
     his.push(`/jobs/${id}`);
   };
