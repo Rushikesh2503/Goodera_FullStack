@@ -45,3 +45,16 @@
   border-bottom-width: 2px;
   border-bottom: 3px solid white;
 }
+.headMainFr {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+.headMainFr > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+}

@@ -21,7 +21,7 @@ const Navbar = () => {
             <h3>Sign In</h3>
           </div>
         </div>
-        <div>
+        <div className={styles.headMainFr}>
           <h1>Find Your Dream Job</h1>
           <p>
             Browse through thousands of full-time and part-time jobs near you
