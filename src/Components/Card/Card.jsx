@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./Card.module.css";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
+
 const Card = ({ data, id }) => {
-  console.log("dataCard:", data);
-  let his = useNavigate();
+  const his = useNavigate();
   const handleView = () => {
-    his.push(`/jobs/${id}`);
+    his(`/jobs/${id}`);
   };
+  
   return (
     <div className={styles.cardMainDivC}>
       <div className={styles.ltContCard}>
